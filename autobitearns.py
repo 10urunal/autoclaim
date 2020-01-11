@@ -18,35 +18,35 @@ class Autoclaim(threading.Thread):
             'Content-Type': 'application/x-www-form-urlencoded'
         }
         if str(self.site).find("DOGE") > 0:
-            cookies = {'DOGEToken': self.token, 'PHPSESSID': self.cookies}
+            cookies = {'DOGEToken': self.token, 'PHPSESSID': self.cookies, 'Ref': "EC-UserId-26314"}
         elif str(self.site).find("STRAT") > 0:
-            cookies = {'STRATToken': self.token, 'PHPSESSID': self.cookies}
+            cookies = {'STRATToken': self.token, 'PHPSESSID': self.cookies, 'Ref': "EC-UserId-26314"}
         elif str(self.site).find("LTC") > 0:
-            cookies = {'LTCToken': self.token, 'PHPSESSID': self.cookies}
+            cookies = {'LTCToken': self.token, 'PHPSESSID': self.cookies, 'Ref': "EC-UserId-26314"}
         elif str(self.site).find("WAVES") > 0:
-            cookies = {'WAVESToken': self.token, 'PHPSESSID': self.cookies}
+            cookies = {'WAVESToken': self.token, 'PHPSESSID': self.cookies, 'Ref': "EC-UserId-26314"}
         elif str(self.site).find("ZEC") > 0:
-            cookies = {'ZECToken': self.token, 'PHPSESSID': self.cookies}
+            cookies = {'ZECToken': self.token, 'PHPSESSID': self.cookies, 'Ref': "EC-UserId-26314"}
         elif str(self.site).find("BCN") > 0:
-            cookies = {'BCNToken': self.token, 'PHPSESSID': self.cookies}
+            cookies = {'BCNToken': self.token, 'PHPSESSID': self.cookies, 'Ref': "EC-UserId-26314"}
         elif str(self.site).find("DASH") > 0:
-            cookies = {'DASHToken': self.token, 'PHPSESSID': self.cookies}
+            cookies = {'DASHToken': self.token, 'PHPSESSID': self.cookies, 'Ref': "EC-UserId-26314"}
         elif str(self.site).find("DGB") > 0:
-            cookies = {'DGBToken': self.token, 'PHPSESSID': self.cookies}
+            cookies = {'DGBToken': self.token, 'PHPSESSID': self.cookies, 'Ref': "EC-UserId-26314"}
         elif str(self.site).find("PPC") > 0:
-            cookies = {'PPCToken': self.token, 'PHPSESSID': self.cookies}
+            cookies = {'PPCToken': self.token, 'PHPSESSID': self.cookies, 'Ref': "EC-UserId-26314"}
         elif str(self.site).find("XRP") > 0:
-            cookies = {'XRPToken': self.token, 'PHPSESSID': self.cookies}
+            cookies = {'XRPToken': self.token, 'PHPSESSID': self.cookies, 'Ref': "EC-UserId-26314"}
         elif str(self.site).find("LSK") > 0:
-            cookies = {'LSKToken': self.token, 'PHPSESSID': self.cookies}
+            cookies = {'LSKToken': self.token, 'PHPSESSID': self.cookies, 'Ref': "EC-UserId-26314"}
         elif str(self.site).find("BCH") > 0:
-            cookies = {'BCHToken': self.token, 'PHPSESSID': self.cookies}
+            cookies = {'BCHToken': self.token, 'PHPSESSID': self.cookies, 'Ref': "EC-UserId-26314"}
         elif str(self.site).find("ETH") > 0:
-            cookies = {'ETHToken': self.token, 'PHPSESSID': self.cookies}
+            cookies = {'ETHToken': self.token, 'PHPSESSID': self.cookies, 'Ref': "EC-UserId-26314"}
         elif str(self.site).find("XMR") > 0:
-            cookies = {'XMRToken': self.token, 'PHPSESSID': self.cookies}
+            cookies = {'XMRToken': self.token, 'PHPSESSID': self.cookies, 'Ref': "EC-UserId-26314"}
         elif str(self.site).find("NEO") > 0:
-            cookies = {'NEOToken': self.token, 'PHPSESSID': self.cookies}
+            cookies = {'NEOToken': self.token, 'PHPSESSID': self.cookies, 'Ref': "EC-UserId-26314"}
         while True:
             scraper = cloudscraper.CloudScraper()
             try:
